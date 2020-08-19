@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature Portfolio</title>
     <link rel="stylesheet" href="CSS/mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" media="screen and (min-width:768px)" href="CSS/desktop.css">
+    <link rel="stylesheet" media="screen and (min-width:601px)" href="CSS/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="CSS/desktop.css">
 </head>
 <body>
 
     
 <div class="container">
+  
    <nav class="navbar">
+    <img src="ami.jpg" width="50px" height="50px">
         <span class="navbar-toogle" id="js-navbar-toggle">
-            <i class="fas fa-bars fa-3x"></i>
+            <i class="fas fa-bars fa-2x"></i>
+            <div style="clear:both;"></div>
+          
         </span>
     
         <ul class="main-nav" id="js-menu">
-            <img src="ami.jpg" width="100px" height="100px">
-            <h1>Portfolio</h1>
+          
+      <h1>Portfolio</h1>
             
             <li>
                 <a href="#" class="nav-links"><i class="fa fa-th-large "></i>Portfolio</a>
@@ -30,20 +35,20 @@
             <li>
                 <a href="#" class="nav-links"><i class="fa fa-envelope fa-fw"></i>Contact</a>
             </li>
+         
         </ul>
+    
+
     </nav>
-    <div class="d-1">
-    <h1>My Portfolio</h1>
+<div class="d-1">
+    <h1>Portfolio</h1>
   <p class="spe-1">Filter:&nbsp; &nbsp; &nbsp; <span class="s-1">All</span><span class="s-2"><i class="fa fa-diamond fa"></i>Design</span>
     <span class="s-2 s-3"><i class="fa fa-photo fa"></i>Photo</span>
     <span class="s-2 s-3"><i class="fa fa-map-pin fa"></i>Art</span>
 </p> <hr class="new1">
  <div class="fle-1">
  <div class="items">
-
- </div>
- <div class="items">
-     <img src="chicago1.jpg" class="i-3">
+     <img src="camera12.jpg" class="i-3">
      <div class="i-2">
          <h3>Lorem</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut nam officiis quibusdam accusamus repellat in consectetur quisquam nobis ex, dignissimos pariatur molestias dolores ipsa voluptatem nemo fugit laudantium soluta.</p>
@@ -57,7 +62,7 @@
     </div>
 </div>
 <div class="items">
-    <img src="camera6.jpg" class="i-3">
+    <img src="camera14.jpg" class="i-3">
     <div class="i-2">
         <h3>Lorem</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut nam officiis quibusdam accusamus repellat in consectetur quisquam nobis ex, dignissimos pariatur molestias dolores ipsa voluptatem nemo fugit laudantium soluta.</p>
@@ -71,24 +76,46 @@
     </div>
 </div>
 <div class="items items1">
-    <img src="tech1.jpg" class="i-3">
+    <img src="camera13.jpg" class="i-3">
     <div class="i-2">
         <h3>Lorem</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut nam officiis quibusdam accusamus repellat in consectetur quisquam nobis ex, dignissimos pariatur molestias dolores ipsa voluptatem nemo fugit laudantium soluta.</p>
     </div>
-   
 </div>
-<div class="items2">
-<span>>>&nbsp;&nbsp;</span><span class="s-5">1</span> 
-&nbsp;&nbsp; <span>2&nbsp;&nbsp;</span>
-<span>3&nbsp;&nbsp;</span>
-<span>4&nbsp;&nbsp;</span>
-<span>5&nbsp;&nbsp;</span>
-<span><<&nbsp;&nbsp;</span>
+    <div class="items items1">
+        <img src="camera11.jpg" class="i-3">
+        <div class="i-2">
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ut nam officiis quibusdam accusamus repellat in consectetur quisquam nobis ex, dignissimos pariatur molestias dolores ipsa voluptatem nemo fugit laudantium soluta.</p>
+        
+        </div>
 </div>
+
+
  </div>
+ <div class="items2">
+    <span>>>&nbsp;&nbsp;</span><span class="s-5">1</span> 
+    &nbsp;&nbsp; <span>2&nbsp;&nbsp;</span>
+    <span>3&nbsp;&nbsp;</span>
+    <span>4&nbsp;&nbsp;</span>
+    <span>5&nbsp;&nbsp;</span>
+    <span><<&nbsp;&nbsp;</span>
+    </div>
  <div class="d-2">
+     <div class="d-4">
+    <div>
+    <img src="f1.jpg" class="i-3">
+</div>
+<div>
+    <img src="f2.jpg" class="i-3">
+</div>
+<div>
     <img src="dhoni-380x276.jpg" class="i-3">
+</div>
+<div>
+    <img src="f3.jpg" class="i-3">
+</div>
+</div>
      <h3>About me</h3>
     <p>My name is Abid Ahmed.I am a student of Shahjalal University of Science and Technology,Sylhet.My faculty is software engineering.I live in sylhet.I completed my Secondary and Higher Secondary from Border Guuard Public School & Collge,Sylhet.</p>
 <h3>Technical Skills</h3>
@@ -233,15 +260,15 @@
     <form action="">
         <div class="d-10">
         <label for="name">Name</label>
-        <input type="text">
+        <input type="text" required="">
     </div>
     <div class="d-10">
         <label for="name">Email</label>
-        <input type="text">
+        <input type="text" required="">
         </div>
         <div class="d-10">
         <label for="name">Message</label>
-        <input type="text">
+        <input type="text" required="">
         </div>
         <button type="submit" class="b-3"><i class="fa fa-paper-plane fa"></i>Send Message</button>
     
@@ -266,6 +293,7 @@
 navBarToggle.addEventListener('click', function () {
     
     mainNav.classList.toggle('active');});
+    
     </script>
 </body>
 </html>
