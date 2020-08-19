@@ -1,0 +1,143 @@
+.navbar {
+    font-size: 18px;
+    background: linear-gradient(260deg, #2376ae 0%, #c16ecf   100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}.main-nav {
+    list-style-type: none;
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+.navbar span i{
+    float:right;
+}
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+    display: block;
+  }
+  .navbar img{
+      border-radius:25%;
+      border:1px solid white;
+      margin-top:10px;
+      margin-left:10px;
+  }
+  .main-nav h1{
+      display:none;
+  }
+  .fa-2x{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding:10px;
+  
+  }
+  .fa-2x:hover{
+      background-color:grey;
+  }
+ 
+  .main-nav i{
+      padding-right:10px;
+  }
+  .main-nav h1{
+      padding-bottom:20px;
+  }
+  .navbar img{
+      border-radius:25%;
+      border:1px solid white;
+      margin-top:10px;
+      margin-left:10px;
+  }
+  .main-nav h1{
+      display:none;
+  }
+  .fle-1{
+    display:grid;
+    flex-wrap:wrap;
+    margin-top:10px;
+    margin-right:30px;
+    margin-left:30px;
+    grid-template-columns: auto auto;
+    column-gap:20px;
+}
+.d-4{
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap:20px;
+}
+.d-4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+   
+}
+.d-4 div{
+    width:45%;
+}
+.fle-5{
+    padding-left:20px;
+    padding-top:30px;
+   
+    margin-bottom:50px;
+    padding-right:30px;
+}
+.items7{
+    display:grid;
+    grid-template-columns:auto auto auto ;
+   
+}
+.btn1{
+    margin-left:20px;
+   padding:0px;
+    text-align:center;
+}
+.items2{
+  
+    text-align:center;
+}
+.fle-4{
+    margin-left:30px;
+    margin-top:20px;
+    margin-right:30px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap:20px;
+}
+.s-3{
+    display:inline-block;
+}
+.fa-2x{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding:20px;
+    
+    }
