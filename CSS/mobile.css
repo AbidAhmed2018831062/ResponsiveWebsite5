@@ -9,7 +9,8 @@
     width:30%;
     height:100vh;
     font-size: 18px;
-    
+ 
+    z-index:3;
  
     padding-bottom: 10px;
     color:black;
@@ -75,7 +76,7 @@
   .d-1{
       position:absolute;
       top:100px;
-    
+      z-index:-1;
     
     
   }
@@ -380,4 +381,5 @@ h4{
 }
 .footer1 button{
     margin-bottom:20px;
+
 }
